@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+$body-background: #8a8a8a;
+@import "foundation/foundation";
+@import "music";
+@import "footer";
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+
+main {
+  background: $white;
+}
